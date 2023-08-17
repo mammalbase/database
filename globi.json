@@ -1,0 +1,212 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data-new/mammalbase/MammalBaseDietDatabase.tsv",
+    "dcterms:bibliographicCitation" : "Kari Lintulaakso. 2023. MammalBase Diet Database.",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "NA" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceOccurrenceId",
+        "titles" : "sourceOccurrenceId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonId",
+        "titles" : "sourceTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "sourceTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonKingdomName",
+        "titles" : "sourceTaxonKingdomName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylumName",
+        "titles" : "sourceTaxonPhylumName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClassName",
+        "titles" : "sourceTaxonClassName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "sourceTaxonOrderName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "sourceTaxonFamilyName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "sourceTaxonGenusName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "sourceTaxonSpecificEpithetName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubspecificEpithetName",
+        "titles" : "sourceTaxonSubspecificEpithetName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBodyPartId",
+        "titles" : "sourceBodyPartId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBodyPartName",
+        "titles" : "sourceBodyPartName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageId",
+        "titles" : "sourceLifeStageId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "sourceLifeStageName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourcePhysiologicalStateId",
+        "titles" : "sourcePhysiologicalStateId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourcePhysiologicalStateName",
+        "titles" : "sourcePhysiologicalStateName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "interactionTypeId",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetOccurrenceId",
+        "titles" : "targetOccurrenceId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "targetTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "targetTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonKingdomName",
+        "titles" : "targetTaxonKingdomName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylumName",
+        "titles" : "targetTaxonPhylumName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClassName",
+        "titles" : "targetTaxonClassName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "targetTaxonOrderName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "targetTaxonFamilyName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "targetTaxonGenusName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithetName",
+        "titles" : "targetTaxonSpecificEpithetName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubspecificEpithetName",
+        "titles" : "targetTaxonSubspecificEpithetName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetBodyPartId",
+        "titles" : "targetBodyPartId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetBodyPartName",
+        "titles" : "targetBodyPartName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifeStageId",
+        "titles" : "targetLifeStageId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifeStageName",
+        "titles" : "targetLifeStageName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetPhysiologicalStateId",
+        "titles" : "targetPhysiologicalStateId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetPhysiologicalStateName",
+        "titles" : "targetPhysiologicalStateName",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatId",
+        "titles" : "habitatId",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "habitatName",
+        "datatype" : "string"
+      }, {
+        "name" : "localityId",
+        "titles" : "localityId",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "localityName",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "decimalLatitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "decimalLongitude",
+        "datatype" : "string"
+      }, {
+        "name" : "depth",
+        "titles" : "depth",
+        "datatype" : "string"
+      }, {
+        "name" : "altitude",
+        "titles" : "altitude",
+        "datatype" : "string"
+      }, {
+        "name" : "observationDateTime",
+        "titles" : "observationDateTime",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "referenceDoi",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "referenceUrl",
+        "datatype" : "string"
+      }, {
+        "name" : "citation",
+        "titles" : "citation",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
