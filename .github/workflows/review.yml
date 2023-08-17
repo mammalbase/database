@@ -29,8 +29,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: review-report
-        path: |
-          README.txt
-          datasets/ 
-          indexed-* 
-          review* 
+          path: |
+            README.txt
+            datasets/ 
+            indexed-* 
+            review* 
