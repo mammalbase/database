@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:///home/jorrit/proj/globi/data-new/mammalbase/MammalBaseDietDatabase.tsv",
+    "url" : "MammalBaseDietDatabase.tsv",
     "dcterms:bibliographicCitation" : "Kari Lintulaakso. 2023. MammalBase Diet Database.",
     "delimiter" : "\t",
     "headerRowCount" : 1,
