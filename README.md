@@ -4,7 +4,7 @@ MammalBase is a database of recent mammals. The main focus of this database is t
 
 To cite this dataset, please use:
 
-Kari Lintulaakso. 2023. MammalBase Diet Database.
+Lintulaakso, K., Tatti, N. and Žliobaitė, I., 2023. Quantifying mammalian diets. Mammalian Biology, 103(1), pp.53-67.
 
 ## Indexing 
 
