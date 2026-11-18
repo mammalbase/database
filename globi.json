@@ -203,7 +203,7 @@
         "titles" : "referenceUrl",
         "datatype" : "string"
       }, {
-        "name" : "citation",
+        "name" : "referenceCitation",
         "titles" : "citation",
         "datatype" : "string"
       } ]
